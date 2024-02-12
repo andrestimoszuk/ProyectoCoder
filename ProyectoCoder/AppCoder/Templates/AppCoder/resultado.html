@@ -1,0 +1,10 @@
+<p> Estamos buscando las fechas de la {{sede}}</p>
+
+{% if fechas %}
+<ul>
+{% for sede in fechas %}
+    <li>{{visita.sede}}</li>
+    <li>{{visita.fecha}}</li>
+{% endfor %}
+</ul>
+{% endif %}

@@ -1,0 +1,11 @@
+{
+    "django.snippets.exclude": [
+
+        "cms",
+        "wagtail"
+    ],
+    "terminal.integrated.automationProfile.windows": {
+
+    },
+    "terminal.integrated.defaultProfile.windows": "Command Prompt"
+}

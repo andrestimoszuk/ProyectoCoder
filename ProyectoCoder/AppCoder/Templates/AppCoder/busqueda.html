@@ -1,0 +1,11 @@
+{% extends "AppCoder/base.html" %}
+
+{% block body%}
+
+<p>Ingresa a continuacion una sede para buscar las fechas de visita</p> 
+    <form action='resultado' method='GET'>
+        <input type="text" name="sede" id="sede">
+        <input type="submit" value="Buscar">
+    </form>
+
+{% endblock body %}
